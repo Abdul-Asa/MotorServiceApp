@@ -1,0 +1,19 @@
+/* body{
+    background-image:url('../images/back.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.label-eye-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+  
+.label-eye-wrapper svg {
+    width: 1.25em;
+    height: 1.25em;
+    cursor: pointer;
+}
