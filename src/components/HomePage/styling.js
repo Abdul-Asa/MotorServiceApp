@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components'
-import image2 from './images/carRepair.jpg'
+import image2 from '../images/carRepair.jpg'
 
 export const Background= styled.body`
 height: 100vh;

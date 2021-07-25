@@ -1,7 +1,7 @@
 import "./css/homepage.css";
 import React from "react";
-import image1 from "./images/carlogo.jpeg";
-import image2 from "./images/carfix3.png";
+import image1 from "../images/carlogo.jpeg";
+import image2 from "../images/carfix3.png";
 import { Background3, HeaderText, SlideControl, SlideControl2, HeaderText2, HeaderTextContainer, Action1,  Section, FlexItem1,FlexItem3, FlexItem2, Action2, Action3, Icon, Title, TextStyle, TextStyle2, BrandImage, DivCenter} from "./styling";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
