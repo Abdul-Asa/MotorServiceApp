@@ -9,6 +9,7 @@ import OurTeam from '../pages/OurTeam'
 import Pricing from '../pages/Pricing'
 import Products from '../pages/Products'
 import ServiceAll from '../pages/ServiceAll'
+import AboutUs from '../pages/AboutUs'
 
 
 
@@ -41,6 +42,9 @@ function Routes() {
             </Route>
             <Route path ="/services">
                 <ServiceAll/>
+            </Route>
+            <Route path ="/about-us">
+                <AboutUs/>
             </Route>
         </Switch>
     )

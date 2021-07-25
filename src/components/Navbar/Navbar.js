@@ -49,21 +49,21 @@ const onMouseLeave = () => {
             onMouseLeave={onMouseLeave}
             >
             <Link
-                to='/services'
+                to='/about-us'
                 className='nav-links'
                 onClick={closeMobileMenu}
             >
-                Services <i className='fas fa-caret-down' />
+                About <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
             </li>
             <li className='nav-item'>
             <Link
-                to='/products'
+                to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
             >
-                Products
+                Services
             </Link>
             </li>
             <li className='nav-item'>

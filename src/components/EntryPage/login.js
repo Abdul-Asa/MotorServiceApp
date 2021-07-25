@@ -5,7 +5,7 @@ import Input from './Input'
 import InputGroup from './InputGroup'
 import { EntryPage, PageHeader } from './entryPage'
 import { Link } from 'react-router-dom'
-import './css/entryPage.css'
+// import './css/entryPage.css'
 
 const login = () => {
     return (
