@@ -1,0 +1,32 @@
+.form-input{
+    width: 100%;
+    outline: none;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #2a2a2a;
+    transition: box-shadow 0.2s;
+}
+
+.form-input::placeholder{
+    color: #bdbdbd;
+    font-size: 13px;
+}
+form-input:focus{
+    box-shadow: 0 0 0 2px rgba(187, 1, 1, 0.5);
+}
+
+.input-group{
+    margin-bottom: 24px;
+    text-align: left;
+}
+.input-group>label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 17px;
+    color:#ffffff    
+}

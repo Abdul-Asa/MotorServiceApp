@@ -1,0 +1,132 @@
+.box{
+position:relative;
+background-image: url('../../images/carRepair10.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+padding: 80px 20px;;
+width:100%;
+box-shadow:inset  0 0 0 2000px rgba(1, 9, 27, 0.8);
+}
+
+@media (max-width: 1000px) {
+    .box{
+        padding: 70px 30px;
+    }
+}
+
+.container {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(185px, 1fr));
+    grid-gap: 20px;
+}
+
+@media (max-width: 1000px) {
+    .row { 
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width: max-content;
+}
+
+.footer-heading {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.column>h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer-Link{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+   
+}
+.footer-Link:hover {
+      color: #1888ff;
+      transition: 200ms ease-in;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+}
+.footer-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.tiny{
+    color: #fff;
+    /* margin-left: 20px; */
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+
+}
+
+.bottom-stuff{
+    padding-top: 30px;
+    display: flex;
+    align-self: center;
+}
+
+@media (max-width: 960px) {
+    .footer-logo {
+        align-items: center;        
+        font-size: 1rem;
+    }
+    
+    .tiny{
+        color: #fff;
+        /* margin-left: 20px; */
+        font-size: 15px;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .bottom-stuff{
+        padding-top: 30px;
+        display: flex;
+        align-self: center;
+    }
+
+    .service-hours{
+        margin-left: 6px;
+
+    }
+    
+}

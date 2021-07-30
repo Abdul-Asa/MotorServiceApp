@@ -1,0 +1,14 @@
+
+
+.label-eye-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+  
+.label-eye-wrapper svg {
+    width: 1.25em;
+    height: 1.25em;
+    cursor: pointer;
+}

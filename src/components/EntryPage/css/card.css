@@ -1,0 +1,28 @@
+.entryCard{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    padding: 50px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.06);
+    background-color: #a6abb1;
+}
+.entryCard>h2,h1{
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.entryCard>span{
+    display: block;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.entryCard>span>a{
+    margin-left: 4px;
+    color: #1888ff;
+    
+}

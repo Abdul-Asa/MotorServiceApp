@@ -1,0 +1,87 @@
+
+
+
+.team-container {
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 50px 0 45px ;
+}
+
+.cards__items {
+    margin-bottom: 24px;
+}
+
+
+
+.cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.teamDiv {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    margin: 30px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+.team-info{
+    padding: 20px 30px 30px;
+    margin: 40px;
+}
+
+.teamText {
+    color: #252e48;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+    width: 84%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cards__items {
+    display: flex;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .cards__item {
+    margin-bottom: 2rem;
+    }
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.teamContact{
+    color: inherit;
+    margin: auto;
+    font-size: 30px;
+    text-decoration: none;
+}

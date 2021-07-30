@@ -1,0 +1,30 @@
+.reviews {
+    padding: 4rem 4rem;
+    background: #fff;
+    justify-content: center;
+    margin-bottom: 150px;
+    background-color: azure;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.reviews__item__info>p{
+    color: black;
+    font-size: 30px;
+}
+
+.reviews__item__info{
+    justify-content: center;
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+    padding: 30px 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+}
+
